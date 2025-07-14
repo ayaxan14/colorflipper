@@ -1,0 +1,57 @@
+h1, p {
+  text-align: center;
+  font-family: Arial;
+}
+
+
+
+.button-wrap {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 150px;
+  height: 70px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-right: 3px;
+  transition: all .1s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  color: mistyrose;
+}
+
+#red {
+  background-color: crimson;
+}
+
+#green {
+  background-color: limegreen;
+}
+
+#blue {
+  background-color: cornflowerblue;
+}
+
+#random {
+  background-color: darkgoldenrod;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
